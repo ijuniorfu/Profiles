@@ -1,0 +1,5 @@
+host, ocsp.apple.com, reject
+host, 32ss.xyz, proxy
+host, 35ss.xyz, proxy
+host, 36ss.xyz, proxy
+host, pud.life, proxy
