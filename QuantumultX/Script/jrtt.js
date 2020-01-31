@@ -1,7 +1,7 @@
 /*
 toutiao remove ads
 [rewrite_local]
-^https?://.*\.snssdk.com/api/news/feed/ url script-response-body jrtl.js
+^https?://.*\.snssdk.com/api/news/feed/ url script-response-body jrtt.js
 [mitm]
 hostname = *.snssdk.com
  */
