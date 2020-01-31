@@ -5,12 +5,32 @@ toutiao remove ads
 [mitm]
 hostname = *.snssdk.com
  */
-var obj = JSON.parse($response.body);
-if (obj.data) {
-    for (var i = obj.data.length - 1; i >= 0; i--) {
-        if (obj.data[i].content.indexOf("raw_ad_data") > 0) {
-            obj.data.splice(i, 1);
-        }
+var body = $response.body;
+var obj = JSON.parse(body);
+
+var dt = obj.data;
+var filterData = filterContents(dt);
+obj.data = filterData;
+body = JSON.stringify(obj);
+$done({body});
+
+
+function filterContents(data) {
+    if (!data || data.length <= 0) {
+        return data;
     }
+    var filterData = [];
+    let len = data.length;
+    for (var i=0;i<len;i++) {
+        let one = data[i];
+        let contentObj = JSON.parse(one.content);
+        if (typeof contentObj.raw_ad_data != 'undefined') {
+            continue;
+        }
+        if ((typeof contentObj.label != 'undefined') && (contentObj.label == '广告')) {
+            continue;
+        }
+        filterData.push(data[i]);
+    }
+    return filterData;
 }
-$done({body: JSON.stringify(obj)});
