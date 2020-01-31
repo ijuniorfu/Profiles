@@ -1,7 +1,7 @@
 /*
 aweme
 [rewrite_local]
-^https://aweme-eagle(.*)\.snssdk\.com/aweme/v2/ https://aweme-eagle$1.snssdk.com/aweme/v1/ 302
+^https://aweme-eagle(.*)\.snssdk\.com/aweme/v2/ url 302 https://aweme-eagle$1.snssdk.com/aweme/v1/
 ^https://[\s\S]*\/aweme/v1/(feed|aweme/post|follow/feed)/ url script-response-body Aweme.js
 [mitm]
 hostname = *.amemv.com, *.snssdk.com
