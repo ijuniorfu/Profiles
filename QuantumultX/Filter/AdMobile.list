@@ -141,7 +141,7 @@ DOMAIN,studcat.infra.systems,REJECT
 DOMAIN,adplex.co.kr,REJECT
 DOMAIN,tveta.naver.net,REJECT
 DOMAIN,opr.formulas.jp,REJECT
-DOMAIN,deliveryengine.adswizz.com
+DOMAIN,deliveryengine.adswizz.com,REJECT
 DOMAIN,sitemaji.com,REJECT
 DOMAIN,h5.wannaplay.cn,REJECT
 DOMAIN,adsapi.manhuaren.com,REJECT

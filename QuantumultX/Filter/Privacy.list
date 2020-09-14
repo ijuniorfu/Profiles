@@ -169,11 +169,8 @@ DOMAIN,mar.vip.com,REJECT
 DOMAIN,p-log.ykimg.com,REJECT
 DOMAIN,pass.1688.com,REJECT
 DOMAIN,pb.i.sogou.com,REJECT
-DOMAIN,people.cn/js/pa.js
 DOMAIN,pingback.sogou.com,REJECT
 DOMAIN,pingjs.qq.com,REJECT
-DOMAIN,pptv.com/stg/add?
-DOMAIN,pptv.com/webdelivery/
 DOMAIN,pv.ltn.com.tw,REJECT
 DOMAIN,pv.udn.com,REJECT
 DOMAIN,pv.xcar.com.cn,REJECT
