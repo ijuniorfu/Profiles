@@ -110,7 +110,7 @@ DOMAIN,buysellads.com,REJECT
 DOMAIN,casino-ad-mediation.me2zengame.com,REJECT
 DOMAIN,postut.cn,REJECT
 DOMAIN,eysmaa.pw,REJECT
-DOMAIN,vennala.pw,REJECT$redirect=nooptext
+DOMAIN,vennala.pw,REJECT
 DOMAIN,promoted.soundcloud.com,REJECT
 DOMAIN,activity.browser.intl.miui.com,REJECT
 DOMAIN,api.brs.intl.miui.com,REJECT
@@ -190,12 +190,9 @@ DOMAIN,ap.smardroid.com,REJECT
 DOMAIN,aclickoooo.host,REJECT
 DOMAIN,api.ampiri.com,REJECT
 DOMAIN,httpkafka.unityads.unity3d.com,REJECT
-DOMAIN,amazonaws.com/cp4pox,REJECT
 DOMAIN,rtb.kds.media,REJECT
 DOMAIN,splicky.com,REJECT
 DOMAIN,auction.unityads.unity3d.com,REJECT
-DOMAIN,cdn-highwinds.unityads.unity3d.com,REJECT
-DOMAIN,dsp.batmobil.net/ads-dsp,REJECT
 DOMAIN,cdn.batmobi.net,REJECT
 DOMAIN,adn.insight.ucweb.com,REJECT
 DOMAIN,us.3zs0.date,REJECT
@@ -221,7 +218,7 @@ DOMAIN,et-code.ru,REJECT
 DOMAIN,gocdn.ru,REJECT
 DOMAIN,gynax.com,REJECT
 DOMAIN,nasdfg.com,REJECT
-DOMAIN,fastmap33.com,REJECT$redirect=nooptext
+DOMAIN,fastmap33.com,REJECT
 DOMAIN,avazunativeads.com,REJECT
 DOMAIN,mobilebanner.ru,REJECT
 DOMAIN,api.ad-locus.com,REJECT
@@ -295,7 +292,7 @@ DOMAIN,dc.altmob.com,REJECT
 DOMAIN,rtb.adentifi.com,REJECT
 DOMAIN,adtheorent.com,REJECT
 DOMAIN,qgss8.com,REJECT
-DOMAIN,api.cloudmobi.net
+DOMAIN,api.cloudmobi.net,REJECT
 DOMAIN,polymorphicads.jp,REJECT
 DOMAIN,cdns.lodeo.io,REJECT
 DOMAIN,ingamesads.gameloft.com,REJECT
@@ -341,7 +338,6 @@ DOMAIN,adflake.com,REJECT
 DOMAIN,ads.aitype.net,REJECT
 DOMAIN,ero-advertising.com,REJECT
 DOMAIN,ad-creatives-public.commondatastorage.googleapis.com,REJECT
-://o0e.ru,REJECT
 DOMAIN,1mp.mobi,REJECT
 DOMAIN,247realmedia.com,REJECT
 DOMAIN,31.14.252.148,REJECT
