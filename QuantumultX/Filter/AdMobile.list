@@ -332,7 +332,7 @@ DOMAIN,ad.myinstashot.com,REJECT
 DOMAIN,net.rayjump.com,REJECT
 DOMAIN,95.213.231.34,REJECT
 DOMAIN,ad.cauly.co.kr,REJECT
-DOMAIN,config.appjolt.com
+DOMAIN,config.appjolt.com,REJECT
 DOMAIN,rtb.platform.glispa.com,REJECT
 DOMAIN,adflake.com,REJECT
 DOMAIN,ads.aitype.net,REJECT
