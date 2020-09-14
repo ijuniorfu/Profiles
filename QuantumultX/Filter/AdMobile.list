@@ -491,7 +491,7 @@ DOMAIN-SUFFIX,appclick.co,REJECT
 DOMAIN-SUFFIX,appclick.net,REJECT
 DOMAIN-SUFFIX,appintop.com,REJECT
 DOMAIN-SUFFIX,applifier.com,REJECT
-DOMAIN-SUFFIX,applift.com,REJECT$redirect=nooptext
+DOMAIN-SUFFIX,applift.com,REJECT
 DOMAIN-SUFFIX,applovin.com,REJECT
 DOMAIN-SUFFIX,appnext-a.akamaihd.net,REJECT
 DOMAIN-SUFFIX,appsdt.com,REJECT
