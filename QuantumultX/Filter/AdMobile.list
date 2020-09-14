@@ -643,7 +643,6 @@ DOMAIN,iad.appboy.com,REJECT
 DOMAIN,iadsdk.apple.com,REJECT
 DOMAIN,iamediaserve.com,REJECT
 DOMAIN,imasdk.googleapis.com,REJECT
-DOMAIN,imwx.com/mobile/adconfig/
 DOMAIN,infolinks.com,REJECT
 DOMAIN,inmobi.com,REJECT
 DOMAIN,inmobi.net,REJECT
