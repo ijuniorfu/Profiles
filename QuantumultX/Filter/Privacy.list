@@ -153,7 +153,6 @@ DOMAIN,eclick.baidu.com,REJECT
 DOMAIN,imgstat.baidu.com,REJECT
 DOMAIN,jcm.jd.com,REJECT
 DOMAIN,lg.tr.pandora.tv,REJECT
-DOMAIN,log*.ku6.com,REJECT
 DOMAIN,log.51cto.com,REJECT
 DOMAIN,log.bitauto.com,REJECT
 DOMAIN,log.flight.qunar.com,REJECT
@@ -187,7 +186,6 @@ DOMAIN,sclick.baidu.com,REJECT
 DOMAIN,shrek.6.cn,REJECT
 DOMAIN,ssp.hinet.net,REJECT
 DOMAIN,stadig.ifeng.com,REJECT
-DOMAIN,stat.*.v-56.com,REJECT
 DOMAIN,stat.1688.com,REJECT
 DOMAIN,stat.caijing.com.cn,REJECT
 DOMAIN,stat.funshion.net,REJECT
