@@ -84,7 +84,7 @@ DOMAIN,click.taobao.com,REJECT
 DOMAIN,cms.grandcloud.cn,REJECT
 DOMAIN,counter.pixplug.in,REJECT
 DOMAIN,cpro.baidustatic.com,REJECT
-DOMAIN,csbew.com,REJECT
+DOMAIN-SUFFIX,csbew.com,REJECT
 DOMAIN,d17m68fovwmgxj.cloudfront.net,REJECT
 DOMAIN,da.netease.com,REJECT
 DOMAIN,dup.baidustatic.com,REJECT
