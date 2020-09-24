@@ -48,10 +48,8 @@ function video() {
     if (obj.data) {
         if (typeof obj.data.related_video_toutiao != 'undefined') {
             if (obj.data.related_video_toutiao.length>0) {
-                for (var i = obj.data.related_video_toutiao.length - 1; i >= 0; i--) {
-                    if (typeof obj.data.related_video_toutiao[i].ad_id != 'undefined') {
-                        obj.data.related_video_toutiao.splice(i, 1);
-                    }
+                if (typeof obj.data.related_video_toutiao[0].ad_id != 'undefined') {
+                    obj.data.related_video_toutiao.splice(0, 1);
                 }
             }
         }
