@@ -47,7 +47,7 @@ function video() {
         if (typeof obj.data.related_video_toutiao != 'undefined') {
             if (obj.data.related_video_toutiao.length>0) {
                 for (var i = obj.data.related_video_toutiao.length - 1; i >= 0; i--) {
-                    if (obj.data.related_video_toutiao[i].ad_id != 'undefined') {
+                    if (typeof obj.data.related_video_toutiao[i].ad_id != 'undefined') {
                         obj.data.related_video_toutiao.splice(i, 1);
                     }
                 }
