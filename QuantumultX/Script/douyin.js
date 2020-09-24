@@ -43,6 +43,9 @@ function feed() {
         arr[i].video_control.allow_download = true;
         arr[i].author.room_id = 0;
         arr[i].video.misc_download_addrs = {};
+        if (i==0) {
+            console.log(JSON.stringify(arr[i]))
+        }
     }
     $done({ body: JSON.stringify(obj) });
 }
